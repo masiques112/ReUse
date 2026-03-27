@@ -1,0 +1,88 @@
+html{
+height: -webkit-fill-available;   
+}
+
+body{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+min-height: -webkit-fill-available;
+margin: 0px;
+font-family: sans-serif;
+background-color: white;   
+}
+
+
+/* part superior */
+
+#superior{
+background-color: #2e7d32;   
+color: white;
+text-align: center;
+padding: 15px;
+}
+
+
+/* seccions */
+
+.seccio{
+padding: 15px;
+border-bottom: 2px solid #e0e0e0;   
+}
+
+
+/* objectes */
+
+.objecte{
+background-color: #f9f9f9;   
+margin-top: 10px;
+padding: 10px;
+border-left: 4px solid #2e7d32;   
+}
+
+
+/* imatges */
+
+.objecte img{
+width: 90px;  
+height: auto;
+}
+
+
+/* formulari */
+
+input, select{
+width: 100%;
+margin-top: 5px;
+}
+
+
+/* botons */
+
+button{
+margin-top: 10px;
+background-color: #2e7d32;
+color: white;
+border: none;
+padding: 6px;
+}
+
+
+/* menu inferior */
+
+#menu{
+display: flex;
+justify-content: space-around;
+background-color: #2e7d32;
+padding: 10px;
+position: sticky;
+bottom: 0;
+}
+
+
+#menu button{
+background: none;
+color: white;
+border: none;
+}
